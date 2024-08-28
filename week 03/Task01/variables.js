@@ -1,0 +1,14 @@
+let name = "Tayyaba Tabassum";
+let age = 18;
+let Major = "Computer Science";
+const CGPA = 4.0;
+const semester = 3;
+console.log("Before Changing Name:" + name + ", age:" + age + ", major:" + Major + ", CGPA:" + CGPA + " and semester is " + semester);
+name = "Tayyaba";
+age = 19;
+Major = "CS";
+console.log("After Changing Name:" + name + ", age:" + age + ", major:" + Major + ", CGPA:" + CGPA + " and semester is " + semester);
+let subjects=["PF","CS","ICS","ICT","OS"];
+console.log(subjects);
+let students={"Ali":18,"Sana":19,"Sara":20};
+console.log("Students info: "+ students["Ali"]);
